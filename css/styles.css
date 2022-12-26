@@ -33,6 +33,13 @@ body {
 .screen {
     background-color: #2f0e07;
     flex: 1;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin: 10px;
+    font-size: 22px;
 }
 
 .buttons {
@@ -80,4 +87,8 @@ button:hover {
 
 .git-ico:hover {
     transform: scale(1.2);
+}
+
+[data-number] {
+    background-color: rgba(87, 160, 105, 0.566);
 }
